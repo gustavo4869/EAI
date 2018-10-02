@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane id="BorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <top>
+    <BorderPane id="BorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0">
+      <bottom>
+        <Pane prefHeight="40.0" prefWidth="335.0" style="-fx-background-color: #105187;">
+          <children>
+            <ImageView id="btnLocalizacao" fitHeight="33.0" fitWidth="44.0" layoutX="14.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="file:/C:/Users/Matheus/Desktop/EAI/Scene%20Builder/Imagens/gps.png" />
+              </image>
+            </ImageView>
+            <ImageView id="btnEditar" fitHeight="33.0" fitWidth="44.0" layoutX="105.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="file:/C:/Users/Matheus/Desktop/EAI/Scene%20Builder/Imagens/pencil.png" />
+              </image>
+            </ImageView>
+            <ImageView id="btnPesquisar" fitHeight="33.0" fitWidth="44.0" layoutX="288.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="file:/C:/Users/Matheus/Desktop/EAI/Scene%20Builder/Imagens/search.png" />
+              </image>
+            </ImageView>
+            <ImageView id="btnLista" fitHeight="33.0" fitWidth="44.0" layoutX="197.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@Imagens/list.png" />
+              </image>
+            </ImageView>
+          </children>
+        </Pane>
+      </bottom>
+      <left>
+        <Pane prefHeight="500.0" prefWidth="335.0">
+          <children>
+            <Label layoutX="14.0" layoutY="14.0" minWidth="307.0" prefHeight="40.0" prefWidth="307.0" text="Pesquisar Ocorrência" textAlignment="CENTER" textFill="#3354ff" textOverrun="ELLIPSIS" underline="false" wrapText="true">
+              <font>
+                <Font size="28.0" />
+              </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="65.0" text="Status da Ocorrência">
+              <font>
+                <Font size="16.0" fx:id="x1" />
+              </font>
+            </Label>
+            <Label font="$x1" layoutX="14.0" layoutY="187.0" text="Localização" />
+            <Button id="btnEntrar" font="$x1" layoutX="14.0" layoutY="457.0" mnemonicParsing="false" prefHeight="28.9609375" prefWidth="307.0" style="-fx-background-color: #105187;&#10;" text="Pesquisar" textFill="WHITE" />
+            <ComboBox editable="false" layoutX="14.0" layoutY="94.0" prefHeight="21.0" prefWidth="135.0">
+              <items>
+                <FXCollections fx:factory="observableArrayList">
+                  <String fx:value="Item 1" />
+                  <String fx:value="Item 2" />
+                  <String fx:value="Item 3" />
+                </FXCollections>
+              </items>
+            </ComboBox>
+            <Slider layoutX="12.0" layoutY="161.0" />
+            <Label font="$x1" layoutX="14.0" layoutY="132.0" text="Veracidade" />
+            <ImageView fitHeight="220.0" fitWidth="300.0" layoutX="15.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@Imagens/santoAndre%20Grande.png" />
+              </image>
+            </ImageView>
+            <TextArea layoutX="168.0" layoutY="68.0" prefHeight="140.28125" prefWidth="147.0" promptText="Descricao" wrapText="true" />
+          </children>
+        </Pane>
+      </left>
+      <top>
+        <Pane prefHeight="60.0" prefWidth="335.0" style="-fx-background-color: #105187;">
+          <children>
+            <Label layoutX="126.0" layoutY="9.0" text="EAÍ?" textFill="WHITE">
+              <font>
+                <Font name="Arial Bold" size="36.0" />
+              </font>
+            </Label>
+            <ImageView id="btnMenu" fitHeight="33.0" fitWidth="44.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="file:/C:/Users/Matheus/Desktop/EAI/Scene%20Builder/Imagens/menu.png" />
+              </image>
+            </ImageView>
+            <ImageView id="btnUser" fitHeight="33.0" fitWidth="44.0" layoutX="288.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="file:/C:/Users/Matheus/Desktop/EAI/Scene%20Builder/Imagens/User_icon_BLACK-01.png" />
+              </image>
+            </ImageView>
+          </children>
+        </Pane>
+      </top>
+    </BorderPane>
+  </top>
+</BorderPane>

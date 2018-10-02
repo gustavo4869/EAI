@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane id="BorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller.UsuarioController">
+  <top>
+    <BorderPane id="BorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0">
+      <bottom>
+        <Pane prefHeight="40.0" prefWidth="335.0" style="-fx-background-color: #105187;">
+          <children>
+            <ImageView id="btnLocalizacao" fitHeight="33.0" fitWidth="44.0" layoutX="14.0" layoutY="4.0" onMouseReleased="#btnMenuImg" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@Imagens/gps.png" />
+              </image>
+            </ImageView>
+            <ImageView id="btnEditar" fitHeight="33.0" fitWidth="44.0" layoutX="105.0" layoutY="4.0" onMouseReleased="#btnEditar" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@Imagens/pencil.png" />
+              </image>
+            </ImageView>
+            <ImageView id="btnPesquisar" fitHeight="33.0" fitWidth="44.0" layoutX="288.0" layoutY="4.0" onMouseReleased="#btnPesquisar" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@Imagens/search.png" />
+              </image>
+            </ImageView>
+            <ImageView id="btnLista" fitHeight="33.0" fitWidth="44.0" layoutX="197.0" layoutY="4.0" onMouseReleased="#btnListaImg" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@Imagens/list.png" />
+              </image>
+            </ImageView>
+          </children>
+        </Pane>
+      </bottom>
+      <center>
+        <Pane prefHeight="200.0" prefWidth="200.0">
+          <children>
+            <ImageView fitHeight="196.0" fitWidth="196.0" layoutX="68.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@Imagens/default-user.png" />
+              </image>
+            </ImageView>
+            <Label layoutX="66.0" layoutY="235.0" minWidth="130.0" prefHeight="29.0001220703125" prefWidth="255.0" text="Matheus Augusto Maria" textAlignment="CENTER" textOverrun="ELLIPSIS" underline="false" wrapText="true">
+              <font>
+                <Font size="18.0" />
+              </font>
+              <textFill>
+                <Color blue="1.000" green="0.329" red="0.200" fx:id="x1" />
+              </textFill>
+            </Label>
+            <Label layoutX="14.0" layoutY="289.0" minWidth="124.3333740234375" prefHeight="29.0001220703125" prefWidth="124.3333740234375" text="RA : 081160017" textAlignment="CENTER" textFill="$x1" textOverrun="ELLIPSIS" underline="false" wrapText="true">
+              <font>
+                <Font size="15.0" fx:id="x2" />
+              </font>
+            </Label>
+            <Label font="$x2" layoutX="12.0" layoutY="347.0" minWidth="108.0" prefHeight="29.0001220703125" prefWidth="108.0" text="Turma : EC6" textAlignment="LEFT" textFill="$x1" textOverrun="ELLIPSIS" underline="false" wrapText="true" />
+            <Button id="btnEntrar" layoutX="197.0" layoutY="457.0" mnemonicParsing="false" prefHeight="29.0001220703125" prefWidth="124.3333740234375" style="-fx-background-color: #105187;&#10;" text="Editar" textFill="WHITE">
+              <font>
+                <Font size="16.0" />
+              </font>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="157.0" layoutX="164.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@Imagens/Sem%20título.png" />
+              </image>
+            </ImageView>
+            <Label font="$x2" layoutX="14.0" layoutY="401.0" minWidth="108.0" prefHeight="29.0001220703125" prefWidth="124.3333740234375" text="Santo Andreense" textAlignment="LEFT" textFill="$x1" textOverrun="ELLIPSIS" underline="false" wrapText="true" />
+            <Label font="$x2" layoutX="14.0" layoutY="456.0" minWidth="108.0" prefHeight="29.0001220703125" prefWidth="164.0" text="6 Ocorrencias relatadas" textAlignment="LEFT" textFill="$x1" textOverrun="ELLIPSIS" underline="false" wrapText="true" />
+          </children>
+        </Pane>
+      </center>
+      <top>
+        <Pane prefHeight="60.0" prefWidth="335.0" style="-fx-background-color: #105187;">
+          <children>
+            <Label layoutX="126.0" layoutY="9.0" text="EAÍ?" textFill="WHITE">
+              <font>
+                <Font name="Arial Bold" size="36.0" />
+              </font>
+            </Label>
+            <ImageView id="btnMenu" fitHeight="33.0" fitWidth="44.0" layoutX="14.0" layoutY="14.0" onMouseReleased="#btnMenuImg" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@Imagens/menu.png" />
+              </image>
+            </ImageView>
+            <ImageView id="btnUser" fitHeight="33.0" fitWidth="44.0" layoutX="288.0" layoutY="14.0" onMouseReleased="#btnUsuario" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@Imagens/User_icon_BLACK-01.png" />
+              </image>
+            </ImageView>
+          </children>
+        </Pane>
+      </top>
+    </BorderPane>
+  </top>
+</BorderPane>

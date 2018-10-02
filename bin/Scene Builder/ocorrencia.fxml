@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane id="BorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <top>
+    <BorderPane id="BorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0">
+      <bottom>
+        <Pane prefHeight="40.0" prefWidth="335.0" style="-fx-background-color: #105187;">
+          <children>
+            <ImageView id="btnLocalizacao" fitHeight="33.0" fitWidth="44.0" layoutX="14.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="file:/C:/Users/Matheus/Desktop/EAI/Scene%20Builder/Imagens/gps.png" />
+              </image>
+            </ImageView>
+            <ImageView id="btnEditar" fitHeight="33.0" fitWidth="44.0" layoutX="105.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="file:/C:/Users/Matheus/Desktop/EAI/Scene%20Builder/Imagens/pencil.png" />
+              </image>
+            </ImageView>
+            <ImageView id="btnPesquisar" fitHeight="33.0" fitWidth="44.0" layoutX="288.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="file:/C:/Users/Matheus/Desktop/EAI/Scene%20Builder/Imagens/search.png" />
+              </image>
+            </ImageView>
+            <ImageView id="btnLista" fitHeight="33.0" fitWidth="44.0" layoutX="197.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@Imagens/list.png" />
+              </image>
+            </ImageView>
+          </children>
+        </Pane>
+      </bottom>
+      <center>
+        <Pane prefHeight="200.0" prefWidth="200.0">
+          <children>
+            <ImageView fitHeight="230.25" fitWidth="307.0" layoutX="14.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true" style="">
+              <image>
+                <Image url="file:/C:/Users/Matheus/Desktop/EAI/Scene%20Builder/Imagens/locais-de-prova-2-fase-xviii-e1452531149327.jpg" />
+              </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="9.0" minWidth="307.0" prefHeight="60.0" prefWidth="307.0" text="Rua Carijós, Jarim Alvorada, SA" textAlignment="CENTER" textOverrun="ELLIPSIS" underline="false" wrapText="true">
+              <font>
+                <Font size="34.0" />
+              </font>
+              <textFill>
+                <Color blue="1.000" green="0.329" red="0.200" fx:id="x1" />
+              </textFill>
+            </Label>
+            <Pane layoutX="14.0" layoutY="299.0" prefHeight="141.0" prefWidth="307.0" style="-fx-border-color: #105187;&#10;-fx-border-width: 2px;">
+              <children>
+                <Pane layoutX="0.0" layoutY="1.0" prefHeight="33.0" prefWidth="307.0" style="-fx-background-color: #BDD3DE&#10;;">
+                  <children>
+                    <Label layoutX="0.0" layoutY="-1.0" minWidth="307.0" prefHeight="33.0" prefWidth="307.0" style="-fx-border-color: #105187;&#10;-fx-border-width: 2px;" text="Resposta da Prefeitura" textAlignment="CENTER" textFill="$x1" textOverrun="ELLIPSIS" underline="false" wrapText="true">
+                      <font>
+                        <Font size="20.0" />
+                      </font>
+                    </Label>
+                  </children>
+                </Pane>
+                <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="41.0" prefHeight="86.0" prefWidth="283.184814453125" text="Na rua carijos ouve um incidente no qual a arvore caiu em cima no bruno nunes, isso causou um grande comflito na região já que a cabeça do nunes já erra grande e agora com a queda da arvore na cabeça no nunes ficou muito maior" underline="false" wrapText="true" />
+              </children>
+            </Pane>
+            <Label layoutX="197.0" layoutY="270.0" minWidth="106.0" prefHeight="29.0" prefWidth="124.0" text="100 % de veracidade" textAlignment="CENTER" textFill="#0c9900" textOverrun="ELLIPSIS" underline="false" wrapText="true">
+              <font>
+                <Font name="System Bold" size="12.0" fx:id="x2" />
+              </font>
+            </Label>
+            <Button id="btnEntrar" layoutX="186.0" layoutY="457.0" mnemonicParsing="false" prefHeight="29.0001220703125" prefWidth="135.3333740234375" style="-fx-background-color: #105187;&#10;" text="Comentários" textFill="WHITE">
+              <font>
+                <Font size="16.0" />
+              </font>
+            </Button>
+            <Label font="$x2" layoutX="24.0" layoutY="457.0" minWidth="106.0" prefHeight="29.0" prefWidth="124.0" text="450 comentários" textAlignment="CENTER" textFill="$x1" textOverrun="ELLIPSIS" underline="false" wrapText="true" />
+          </children>
+        </Pane>
+      </center>
+      <top>
+        <Pane prefHeight="60.0" prefWidth="335.0" style="-fx-background-color: #105187;">
+          <children>
+            <Label layoutX="126.0" layoutY="9.0" text="EAÍ?" textFill="WHITE">
+              <font>
+                <Font name="Arial Bold" size="36.0" />
+              </font>
+            </Label>
+            <ImageView id="btnMenu" fitHeight="33.0" fitWidth="44.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="file:/C:/Users/Matheus/Desktop/EAI/Scene%20Builder/Imagens/menu.png" />
+              </image>
+            </ImageView>
+            <ImageView id="btnUser" fitHeight="33.0" fitWidth="44.0" layoutX="288.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="file:/C:/Users/Matheus/Desktop/EAI/Scene%20Builder/Imagens/User_icon_BLACK-01.png" />
+              </image>
+            </ImageView>
+          </children>
+        </Pane>
+      </top>
+    </BorderPane>
+  </top>
+</BorderPane>
